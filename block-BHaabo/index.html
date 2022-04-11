@@ -1,8 +1,85 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/b57790b207.js" crossorigin="anonymous"></script>
 
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+    <title>Flexbox|Assignment Level I</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img class="image-logo" src="assets/altcampus-logo.svg" alt="" />
+            <nav>
+                <a class="nav-link" href="#">
+                    <img class="icon" src="assets/icons/bell.svg" alt="" />
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="profile-name">Sarah Jone</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <img class="icon" src="assets/icons/user.svg" alt="" />
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="aside">
+            <nav class="nav">
+                <a class="nav-link" href="">
+                    <img class="icon" src="assets/icons/dashboard.svg" alt="" />
+                    <span> Dashboard</span>
+                </a>
+                <a class="nav-link active" href="">
+                    <img class="icon" src="assets/icons/article.svg" alt="" />
+                    <span> Articles</span>
+                </a>
+                <a class="nav-link" href="">
+                    <img class="icon" src="assets/icons/analytics.svg" alt="" />
+                    <span>Analytics</span>
+                </a>
+                <a class="nav-link" href="">
+                    <img class="icon" src="assets/icons/inbox.svg" alt="" />
+                    <span> Inbox </span>
+                </a>
+                <a class="nav-link" href="">
+                    <img class="icon" src="assets/icons/setting.svg" alt="" />
+                    <span>Settings</span>
+                </a>
+            </nav>
+            <button class="logout_button">
+          <img class="icon" src="assets/icons/log-out.svg" alt="" />
+          <span>Logout</span>
+        </button>
+        </aside>
+        <main class="main">
+            <div class="image">
+                <img class="main-image" src="assets/01.png" alt="" />
+                <h1 class="main-heading">Why we are Doing AltCampus ?</h1>
+                <p class="main-text">
+                    AltCampus is an alternative to college that you wish existed. Currently, we are offering an in-house, 6-month long program to train people in quality software development, where they don't have to pay anything until they are hired. We live in the world
+                    of digital skills. These skills are always evolving and so is their demand. Students/Professionals who are not responsive to the changes in industry demands, in terms of skills, will have a hard time surviving, well at least flourishing.
+                </p>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="footer">
+            <p class="footer-text">© AltCampus</p>
+            <nav class="footer-nav">
+                <a class="footer-link" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i
+          ></a>
+                <a class="footer-link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i
+          ></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
